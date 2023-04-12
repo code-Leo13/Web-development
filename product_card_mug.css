@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+.container{
+   background-color:bisque;
+   background: linear-gradient(white,pink);
+   height: 100vh;
+   
+}
+.card
+{
+    background-color: white;
+height: 400px;
+width: 650px;
+transform: translateX(50%) translateY(40%);
+border-radius: 25px;
+box-shadow: 50px;
+}
+img{
+    
+     height: 400px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.box2{
+    transform: translateX(50%) translateY(-20rem);
+    font-family: 'Fraunces';
+  font-style: normal;
+  font-size: larger;
+  font-weight: 700;
+  font-display: swap;
+}
+.box3{
+    transform: translateX(50%) translateY(-25rem);
+    font-family: 'Montserrat';
+    font-size: larger;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+.box4{
+    transform: translateX(12.5%) translateY(-20rem);
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box5{
+    transform: translateX(20.8rem) translateY(-20rem);
+    font-size: x-large;
+    font: bold;
+    color: green;
+    width: 200px;
+}
+
+.strike{
+    font-size:medium;
+    font:200;
+    color: gray;
+}
+button{
+    transform: translateX(21rem) translateY(-19rem);
+    height: 50px;
+    width: 300px;
+    background-color: green;
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+    border-radius: 15px;
+    border: 0;
+    font: bold;
+
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
